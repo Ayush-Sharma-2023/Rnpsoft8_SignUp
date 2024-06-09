@@ -1,0 +1,130 @@
+.navbar {
+  height: 5rem;
+  background-color: #020715;
+  display: flex;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+}
+
+.rnp_logo {
+  background-image: url(../images/RNPLOGO.svg.png);
+  width: 130px;
+  height: 27.28px;
+  top: 26.44px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 15px;
+}
+
+.rnp_logo:hover {
+  cursor: pointer;
+}
+
+.contact_info {
+  width: max-content;
+  height: 80px;
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 400px;
+}
+
+.contact_info_content:hover {
+  cursor: pointer;
+  color: #8800FF;
+}
+
+.contact_info_content {
+  display: flex;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  height: 24px;
+  top: 27.44px;
+  position: relative;
+  background-color: black;
+}
+
+.contact_info_content:hover {
+  cursor: pointer;
+}
+
+.contact_info_content p:hover {
+  color: #8800ff;
+}
+
+.contact_info_content p {
+  width: max-content;
+}
+
+.contact_info_content p a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact_info_content p:hover {
+  cursor: pointer;
+  color: #8800FF;
+}
+
+.contact_info_content p a:hover {
+  cursor: pointer;
+  color: #8800FF;
+}
+
+.profile{
+  display: flex;
+  position: absolute;
+  right: 255px;
+  height: 100%;
+  width: max-content;
+  gap: 10px;
+}
+
+.profile_img {
+  background-image: url(../images/profile_img.png);
+  background-size: contain;
+  width: 48px;
+  height: 48px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  top: 15px;
+  position: relative;
+}
+
+.user_details{
+  width: 20.85px;
+  height: 18.5px;
+  background-color: #020715;
+  border: 0px solid transparent;
+  position: relative;
+  top: 34px;
+  background-image: url(../images/Vector.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .contact_info_content p {
+    font-size: 1em;
+  }
+
+  .contact_info {
+    right: 160px;
+  }
+
+  .rnp_logo {
+    width: 100px;
+  }
+
+  .profile{
+    right: 40px;
+  }
+}
