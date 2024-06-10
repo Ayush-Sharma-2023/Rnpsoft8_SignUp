@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/navbar.jsx'
 import LanguageSelect from './components/Language_selection.jsx'
+import Signup from './components/SignUp.jsx'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <LanguageSelect />
+      {/* <Navbar /> */}
+      {/* <LanguageSelect /> */}
+      <Signup />
     </>
   )
 }

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+ body, input{
+    background-image: url(../images/background_img.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    
+}
+
+
+/* .container, .input , body{
+    background-image: url(../images/background_img.png);
+} */
+
+.form{
+    color: white;
+    max-width: 669.2px;
+    /* max-height: 704px; */
+    /* margin-left: 1706px; full screen */ 
+    /* margin-left: 385px; */
+    margin-left: 518.5px;
+    /* margin-left: 50%; */
+    /* margin-top: 202px; */
+    /* margin-top: 853px; full screen*/
+    margin-top: 45px;
+    
+    
+}
+
+legend{
+    font-size: 32px;
+    font-weight: 400px;
+    /* background-image: url(../images/background_img.png); */
+    padding-left: 40px;
+    
+    
+    
+}
+
+.input{
+    /* display: flex; */
+    width: 532.92px;
+    height: 96.89px;
+    top: 50.86px;
+    /* left: 75.51px; */
+    /* gap: 200px; */
+    border-radius: 8.07px;
+    border-color: white;
+    
+    margin-left: 40px;
+    margin-top: 20px;
+
+    border: 1.61px 0px 0px 0px;
+    opacity: 0px;
+    color: white;
+    /* font-family: Outfit; */
+    font-size: 25.84px;
+    font-weight: 500;
+    line-height: 32.56px;
+    padding-left: 20px;
+    background-attachment: fixed;
+    
+    
+    
+    
+}
+
+.input::placeholder{
+    color: white;
+    /* font-family: Outfit; */
+    font-size: 25.84px;
+    font-weight: 500;
+    line-height: 32.56px;
+    /* text-align: left; */
+    padding-left: 0px;
+    background-attachment: fixed;
+    
+
+
+    
+    
+    
+
+}
+
+/* .box{
+    align-items: center;
+} */
+
+
+
+.button{
+    width: 320px;
+    height: 50px;
+    top: 419px;
+    border-radius: 10px;
+    background-color: #a883da;
+    margin-left: 161px;
+    margin-top: 43px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #a886ff;
+    
+}
+
+fieldset {
+    border: none;
+    padding: 10px;
+    background-image: url(../images/background_img.png);
+    border-radius: 89.23px;
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-size: cover
+    
+}
+
+.signin{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: center;
+
+
+}
+a{
+    text-decoration: none   ;
+}
+
+.rect1{
+    width: 213.17px;
+height: 5.84px;
+margin-top: 10px;
+margin-left: 15px;
+margin-right: 15px;
+
+left: 37px;
+gap: 0px;
+opacity: 0px;
+
+background: linear-gradient(to left, rgba(11, 110, 254, 1), rgba(196, 196, 196, 0));
+
+}
+.rect2{
+    width: 213.17px;
+height: 5.84px;
+margin-top: 10px;
+margin-left: 15px;
+margin-right: 15px;
+
+left: 37px;
+gap: 0px;
+opacity: 0px;
+
+background: linear-gradient(to right, rgba(11, 110, 254, 1), rgba(196, 196, 196, 0));
+
+}
+
+.or{
+    display: flex;
+}
+
+.logos {
+    /* display: flex; */
+    /* align-items: center; */
+    display: flex;
+    margin-top: 30px;
+    
+    
+    }
+    
+    .logo1 {
+        
+        border: 10px solid white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: url(../images/google.png);
+        background-position: center;
+        background-size: cover;
+        margin-left: 150px;
+
+}
+    .logo2 {
+        
+        border: 10px solid white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: url(../images/facebook.png);
+        background-position: center;
+        background-size: cover;
+        margin-left: 60px;
+
+}
+    .logo3 {
+        
+        border: 10px solid white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: url(../images/apple.png);
+        background-position: center;
+        background-size: cover;
+        margin-left: 60px;
+
+}
