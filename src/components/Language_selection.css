@@ -1,0 +1,91 @@
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid white;
+    position: relative;
+    top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="radio"]:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+    display: none;
+}
+
+input[type="radio"]:checked:after {
+    display: block;
+}
+
+#txtArea {
+    position: relative;
+    top: 240px;
+    border-radius: 15px;
+    font-family: Georama;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px 10px 10px 15px;
+    max-width: 80%;
+}
+
+.chooseFiles {
+    display: block;
+    padding: 15px 35px;
+    background: rgba(171, 60, 60, 1);
+    color: white;
+    position: absolute;
+    top: 650px;
+    left: 46%;
+    font-family: Georama;
+    border-radius: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+input[type="submit"] {
+    width: 104px;
+    height: 46px;
+    top: 800px;
+    left: 47.5%;
+    font-size: large;
+    border-radius: 10%;
+    background-color: rgba(52, 52, 52, 1);
+    color: white;
+    position: absolute;
+    border: 0px solid transparent;
+}
+
+/* @media  and (max-width:768px) {
+    
+} */
+
+@media screen and (max-width:425px) {
+    input[type="radio"] {
+        height: 16px;
+        width: 16px;
+        top: 15px;
+    }
+
+    .chooseFiles {
+        left: 35%;
+        top: 590px;
+    }
+
+    #txtArea {
+        width: 80%;
+        font-size: 25px;
+    }
+}

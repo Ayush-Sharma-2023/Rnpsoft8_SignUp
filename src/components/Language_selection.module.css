@@ -1,8 +1,10 @@
 .container {
     background-image: url(../images/background_img.png);
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height:100vh;
+    width: 100%;
+    display: block;
+    position: relative;
 }
 
 .eclipse {
@@ -16,3 +18,75 @@
     bottom: 0px;
     right: 0px;
 }
+
+.heading{
+    width: max-content;
+    height: max-content;
+    font-family: Open Sans;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 100px;
+    text-wrap: wrap;
+}
+
+.all_lang{
+    width: inherit;
+    height: 45px;
+    top: 170px;
+    position: relative;
+    font-family: Georama;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44.8px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 145px;
+    justify-content: center;
+}
+
+.all_lang_containers{
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width:425px) {
+    .heading{
+        font-size: 40px;
+    }
+    .all_lang{
+        font-size: 20px;
+        gap: 0px;
+        top: 150px;
+        justify-content: left;
+    }
+    .all_lang_containers{
+        margin-left: 50px;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    .heading{
+        font-size: 35px;
+    }
+    .all_lang_containers{
+        margin-left: 40px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .heading{
+        font-size: 30px;
+    }
+    .all_lang_containers{
+        margin-left: 25px;
+        gap: 10px;
+    }
+}
+
