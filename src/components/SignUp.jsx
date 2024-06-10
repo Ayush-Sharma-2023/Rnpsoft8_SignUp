@@ -10,10 +10,8 @@ function Signup({ onContinueClick, showLanguageSelect, LanguageSelect }){
 
     return(
         <>
-        <div className={style.container}>
-            {/* <div className={style.logo}>
-                <img src={logo} alt="NO TEXT " />
-            </div> */}
+        {/* <div className={style.container}> */}
+           
 
             <div className={style.form}>
                 <form action="">
@@ -54,7 +52,7 @@ function Signup({ onContinueClick, showLanguageSelect, LanguageSelect }){
             </div>
             
 
-        </div>
+        {/* </div> */}
         {/* {showLanguageSelect && <LanguageSelect />} */}
 
         
