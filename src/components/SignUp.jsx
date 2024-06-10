@@ -29,6 +29,7 @@ function Signup(){
                         <p className={style.signin}>Already have an account? <a href="">Sign in</a></p>
                     </div>
                     <br />
+                    <br />
 
 
                     <div className={style.or}>
