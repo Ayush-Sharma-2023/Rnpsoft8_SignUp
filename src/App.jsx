@@ -3,6 +3,7 @@ import Navbar from './components/navbar.jsx';
 import LanguageSelect from './components/Language_selection.jsx';
 import Signup from './components/SignUp.jsx';
 import Download from './components/download.jsx';
+import Login from './components/login.jsx';
 
 function App() {
   const [showLanguageSelect, setShowLanguageSelect] = useState(false);
@@ -13,8 +14,10 @@ function App() {
 
   return (
     <>
+    
            
       {!showLanguageSelect && <Signup onContinueClick={handleContinueClick} />}
+      {!showLanguageSelect && <Login  />}  {/* Needs to be optimesed later */}
       {showLanguageSelect && <Navbar /> } 
       {showLanguageSelect && <LanguageSelect />}
 
