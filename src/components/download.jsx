@@ -28,7 +28,7 @@ function download() {
           </video>   
         </div>
 
-        <button>Download Now</button>
+        <button className={style.but}>Download Now</button>
         
 
         
