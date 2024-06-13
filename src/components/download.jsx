@@ -9,7 +9,7 @@ function download() {
     
       <div className={style.backgr}>
         <br />
-        <br />
+        <br /><br /><br />
         <div className={style.Demo}>Download the video</div>
         <br />
         <div className={style.info}>

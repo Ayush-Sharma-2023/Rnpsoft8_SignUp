@@ -22,7 +22,8 @@ function Login({ onContinueClick, showLanguageSelect, LanguageSelect }){
 
                         <input className={style.input} type="text" placeholder="Username, email & phone number"/>
                         <input className={style.input} type="password" placeholder="Password"/>
-                        <input className={style.input} type="password" placeholder="Confirn Password"/>
+                        
+                        {/* reCapta to be added here */}
                         <button className={style.button}onClick={onContinueClick}>Continue</button><br /><br />
                         <p className={style.signin}>Don't have an account? <a href="">Sign up</a></p>
                     </div>
