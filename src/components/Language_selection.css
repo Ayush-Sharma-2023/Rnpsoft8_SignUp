@@ -63,7 +63,7 @@ input[type="file"] {
 input[type="submit"] {
     width: 119px;
     height: 51px;
-    top: 880px;
+    bottom: 40px;
     left: 46.9%;
     font-size: larger;
     border-radius: 14%;
