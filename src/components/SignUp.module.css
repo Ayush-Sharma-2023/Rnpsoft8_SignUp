@@ -218,3 +218,8 @@ background: linear-gradient(to right, rgba(11, 110, 254, 1), rgba(196, 196, 196,
         margin-left: 60px;
 
 }
+
+.logo1:hover, .logo2:hover, .logo3:hover{
+    cursor: pointer;
+    border: 10px solid purple;
+}
