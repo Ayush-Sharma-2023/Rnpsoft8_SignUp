@@ -22,11 +22,10 @@ function Signup({ onContinueClick, onLoginClick, LanguageSelect }){
 
                         <input className={style.input} type="text" placeholder="Username, email & phone number"/>
                         <input className={style.input} type="password" placeholder="Password"/>
-                        <input className={style.input} type="password" placeholder="Confirn Password"/>
+                        <input className={style.input} type="password" placeholder="Confirm Password"/>
                         <button className={style.button}onClick={onContinueClick}>Continue</button><br /><br />
-                        <p className={style.signin}>Already have an account? <a href="#" onClick={onLoginClick}>Log in</a></p>
+                        <p className={style.signin}>Already have an account? <a href="#" onClick={onLoginClick}>Sign in</a></p>
                     </div>
-                    <br />
                     <br />
 
 
