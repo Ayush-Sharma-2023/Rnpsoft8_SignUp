@@ -2,7 +2,7 @@ import "./Language_selection.css"
 import style from "./Language_selection.module.css"
 
 
-function LanguageSelect() {
+function LanguageSelect(goToDownload) {
     return (
         <>
             <div className={style.container}>
@@ -25,7 +25,7 @@ function LanguageSelect() {
                         <textarea id="txtArea" rows="5" cols="55" placeholder="Enter the text"></textarea>
                         <input type="file" id="custom-file-upload" />
                         <label for="custom-file-upload" className="chooseFiles">Choose Files</label>
-                        <input type="submit" value="NEXT"/>
+                        <input type="submit" value="NEXT" onClick={goToDownload}/>
                     </form>
                 </center>
                 <div className={style.eclipse}></div>

@@ -5,24 +5,60 @@ import Signup from './components/SignUp.jsx';
 import Download from './components/download.jsx';
 import Login from './components/login.jsx';
 
+// goToDownload
+
 function App() {
-  const [showLanguageSelect, setShowLanguageSelect] = useState(false);
+  
+  const [showPage, setShowpage] = useState(false);
+  const [showLogin, hideLogin] = useState(false);
+  const [ showvideo, setshowvideo] = useState(false)
+  const [ showLanguage, setshowLanguage] = useState(false)
+
+  const handleLoginClick =() =>{
+    hideLogin(true);
+    showPage(true);
+    
+
+  };
+  const handleSignClick =() =>{
+    hideLogin(false);
+
+
+  };
+
+  const handleDownload =() =>{
+    setshowLanguage(false);
+    setShowpage(true);
+    setshowvideo(true);
+  };
+
+
 
   const handleContinueClick = () => {
-    setShowLanguageSelect(true);
+    setShowpage(true);
+    setshowLanguage(true);
+    setshowvideo(false);
+
   };
 
   return (
     <>
     
            
-      {!showLanguageSelect && <Signup onContinueClick={handleContinueClick} />}
-      {!showLanguageSelect && <Login  />}  {/* Needs to be optimesed later */}
-      {showLanguageSelect && <Navbar /> } 
-      {showLanguageSelect && <LanguageSelect />}
+      {!showLogin  && !showPage && <Signup onLoginClick={handleLoginClick} onContinueClick={handleContinueClick}   /> }
+      {showLogin   && !showPage && <Login  onLoginClick={handleSignClick}  onContinueClick={handleContinueClick} /> }
+
+      
+      
+      
+      {/* {!showLanguageSelect && <Signup onLoginClick={handleLoginClick} />}  */}
+      {/* {!showLanguageSelect && <Login onLoginClick={handleLoginClick} />}  */}
+       {/* Needs to be optimesed later */}
+      {showPage &&  <Navbar /> } 
+      {showPage && !showvideo && showLanguage &&  <LanguageSelect goToDownload={handleDownload}/>}
 
       {/* This is temporary and need to be updated when we finish the design */}
-      {showLanguageSelect && <Download/>}
+      {showPage &&  showvideo && !showLanguage && <Download/>}
 
        
       

@@ -6,7 +6,7 @@ import apple from "../images/apple.png";
 import facebook from "../images/facebook.png";
 
 
-function Signup({ onContinueClick, showLanguageSelect, LanguageSelect }){
+function Signup({ onContinueClick, onLoginClick, LanguageSelect }){
 
     return(
         <>
@@ -24,7 +24,7 @@ function Signup({ onContinueClick, showLanguageSelect, LanguageSelect }){
                         <input className={style.input} type="password" placeholder="Password"/>
                         <input className={style.input} type="password" placeholder="Confirn Password"/>
                         <button className={style.button}onClick={onContinueClick}>Continue</button><br /><br />
-                        <p className={style.signin}>Already have an account? <a href="">Sign in</a></p>
+                        <p className={style.signin}>Already have an account? <a href="#" onClick={onLoginClick}>Log in</a></p>
                     </div>
                     <br />
                     <br />
