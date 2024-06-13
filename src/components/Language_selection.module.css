@@ -28,14 +28,14 @@
     text-align: center;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 100px;
+    top: 170px;
     text-wrap: wrap;
 }
 
 .all_lang{
     width: inherit;
     height: 45px;
-    top: 170px;
+    top: 250px;
     position: relative;
     font-family: Georama;
     font-size: 32px;

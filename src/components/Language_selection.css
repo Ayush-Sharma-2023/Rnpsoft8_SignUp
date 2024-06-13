@@ -29,7 +29,7 @@ input[type="radio"]:checked:after {
 
 #txtArea {
     position: relative;
-    top: 240px;
+    top: 330px;
     border-radius: 15px;
     font-family: Georama;
     font-size: 32px;
@@ -48,10 +48,11 @@ textarea{
     background: rgba(171, 60, 60, 1);
     color: white;
     position: absolute;
-    top: 650px;
-    left: 46%;
+    top: 750px;
+    left: 45.2%;
     font-family: Georama;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 input[type="file"] {
@@ -60,12 +61,12 @@ input[type="file"] {
 
 
 input[type="submit"] {
-    width: 104px;
-    height: 46px;
-    top: 800px;
-    left: 47.5%;
-    font-size: large;
-    border-radius: 10%;
+    width: 119px;
+    height: 51px;
+    top: 920px;
+    left: 46.9%;
+    font-size: larger;
+    border-radius: 14%;
     background: rgba(52, 52, 52, 1);
     color: white;
     position: absolute;
