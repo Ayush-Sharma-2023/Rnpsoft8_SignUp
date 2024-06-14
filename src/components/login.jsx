@@ -24,16 +24,14 @@ function Login({ onContinueClick, showLanguageSelect, LanguageSelect }){
                         <input className={style.input} type="password" placeholder="Password"/>
                         
                         {/* reCapta to be added here */}
-                        <button className={style.button}onClick={onContinueClick}>Continue</button><br /><br />
+                        <button className={style.button}onClick={onContinueClick}>Continue</button><br />
                         <p className={style.signin}>Don't have an account? <a href="">Sign up</a></p>
                     </div>
                     <br />
-                    <br />
-
 
                     <div className={style.or}>
                         <div className={style.rect1}></div>
-                        <p>Or Log in With</p>
+                        <p>Or log in With</p>
                         <div className={style.rect2}></div>
 
                     </div>
