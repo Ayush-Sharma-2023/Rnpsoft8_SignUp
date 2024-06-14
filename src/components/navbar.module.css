@@ -2,21 +2,22 @@
   height: 5rem;
   background-color: #020715;
   display: flex;
+  align-items: center;
   width: 100%;
   z-index: 1000;
   position: fixed;
-  margin-top: 0px;
+  top: 0;
+  margin-top: 0;
 }
 
 .rnp_logo {
   background-image: url(../images/RNPLOGO.svg.png);
   width: 130px;
   height: 27.28px;
-  top: 26.44px;
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
-  left: 15px;
+  margin-left: 15px;
 }
 
 .rnp_logo:hover {
@@ -24,67 +25,44 @@
 }
 
 .contact_info {
-  width: max-content;
-  height: 80px;
   display: flex;
-  visibility: visible;
   position: absolute;
   right: 400px;
-}
-
-.contact_info_content:hover {
-  cursor: pointer;
-  color: #8800FF;
+  align-items: center;
 }
 
 .contact_info_content {
-  display: flex;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  text-align: left;
   color: #ffffff;
   height: 24px;
-  top: 27.44px;
   position: relative;
   background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.contact_info_content p {
+  margin: 0;
+  padding: 0;
 }
 
 .contact_info_content:hover {
   cursor: pointer;
 }
 
-.contact_info_content p:hover {
+.contact_info_content:hover p {
   color: #8800ff;
 }
 
-.contact_info_content p {
-  width: max-content;
-}
-
-.contact_info_content p a {
-  text-decoration: none;
-  color: white;
-}
-
-.contact_info_content p:hover {
-  cursor: pointer;
-  color: #8800FF;
-}
-
-.contact_info_content p a:hover {
-  cursor: pointer;
-  color: #8800FF;
-}
-
-.profile{
+.profile {
   display: flex;
   position: absolute;
   right: 255px;
-  height: 100%;
-  width: max-content;
+  align-items: center;
   gap: 10px;
+  height: 100%;
 }
 
 .profile_img {
@@ -92,25 +70,21 @@
   background-size: contain;
   width: 48px;
   height: 48px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  top: 15px;
   position: relative;
 }
 
-.user_details{
+.user_details {
   width: 20.85px;
   height: 18.5px;
   background-color: #020715;
-  border: 0px solid transparent;
+  border: none;
   position: relative;
-  top: 34px;
   background-image: url(../images/Vector.png);
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
+/* Media Queries */
 @media (max-width: 1024px) {
   .contact_info_content p {
     font-size: 1em;
@@ -124,7 +98,37 @@
     width: 100px;
   }
 
-  .profile{
+  .profile {
     right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_info {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: space-between; /* Ensure logo and profile are spaced out */
+    padding: 0 15px;
+  }
+
+  .rnp_logo {
+    margin-left: 5px;
+  }
+
+  .profile {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rnp_logo {
+    width: 80px;
+  }
+
+  .profile_img {
+    width: 40px;
+    height: 40px;
   }
 }
