@@ -1,5 +1,7 @@
 import style from "./download.module.css";
 import kalingaVideo from "../images/kalinga_ai.mp4";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 
 function download() {
@@ -11,7 +13,7 @@ function download() {
         <br />
         <br /><br /><br />
         <div className={style.Demo}>Download the video</div>
-        <br />
+
         <div className={style.info}>
           
         Now you can also download the video in your own  <br />language. Hear out to the daily headlines in your <br /> own native language. 
@@ -28,7 +30,8 @@ function download() {
           </video>   
         </div>
 
-        <button className={style.but}>Download Now</button>
+        <button className={style.but}>
+       Download Now <FontAwesomeIcon icon={faDownload} /></button>
         
 
         
