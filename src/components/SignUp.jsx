@@ -1,6 +1,6 @@
 import style from "./SignUp.module.css";
 import React from "react";
-import logo from "../images/RNPLOGO.svg.png";
+import logo from "../images/rnplogo2.png";
 import google from "../images/google.png";
 import apple from "../images/apple.png";
 import facebook from "../images/facebook.png";
@@ -11,9 +11,11 @@ function Signup({ onContinueClick, onLoginClick, LanguageSelect }){
     return(
         <>
         {/* <div className={style.container}> */}
+        
            
 
             <div className={style.form}>
+            <img className={style.logo} src={logo} alt="" />
                 <form action="">
                    
                     <fieldset>

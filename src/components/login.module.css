@@ -27,6 +27,15 @@ legend {
     padding-left: 40px;
     font-family: 'Poppins', sans-serif; 
 }
+.logo{
+    display: grid  ;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+    height: 50px;
+    margin-bottom: 30px;
+    
+}
 
 .input {
     width: 90%;
