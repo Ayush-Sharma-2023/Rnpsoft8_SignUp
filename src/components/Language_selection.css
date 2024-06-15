@@ -93,21 +93,21 @@ input[type="submit"] {
         width: 80%;
         font-size: 25px;
     }
-    input[type="submit"] {
+    .next {
         /* top: 870px; */
         top: 670px;
     }
 }
 
 @media screen and (min-width:1440px) and (max-width:1709px){
-    input[type="submit"] {
+    .next {
         /* top: 870px; */
         top: 670px;
     }
 }
 
 @media screen and (min-width:1024px) and (max-width:1439px){
-    input[type="submit"] {
+    .next {
         top: 820px;
     }
     #txtArea{

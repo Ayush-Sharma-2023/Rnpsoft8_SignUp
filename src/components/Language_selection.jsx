@@ -36,7 +36,7 @@ function LanguageSelect({goToDownload}) {
                         <input type="file" id="custom-file-upload" />
                         <label for="custom-file-upload" className="chooseFiles">Choose Files</label>
                         {/* <input type="submit" value="NEXT" onClick={goToDownload}/> */}
-                        <input type="submit" value="NEXT"/>
+                        <input className={style.next} type="submit" value="NEXT"/>
                     </form>
                 </center>
                 <div className={style.eclipse}></div>
