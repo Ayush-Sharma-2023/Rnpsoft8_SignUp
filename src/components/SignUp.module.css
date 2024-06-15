@@ -35,7 +35,7 @@ legend {
     border: 1px solid white;
     margin-top: 20px;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 25px;
     background-color: transparent;
     color: white;
     margin-left: 20px;
@@ -43,7 +43,7 @@ legend {
 
 .input::placeholder {
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-family: "Outfit", sans-serif;
     font-weight: 500;
 }
