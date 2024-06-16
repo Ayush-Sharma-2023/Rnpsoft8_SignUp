@@ -81,9 +81,9 @@ input[type="submit"] {
 
 @media screen and (max-width:425px) {
     input[type="radio"] {
-        height: 16px;
-        width: 16px;
-        top: 15px;
+        height: 22px;
+        width: 22px;
+        top: 10px;
     }
 
     .chooseFiles {
