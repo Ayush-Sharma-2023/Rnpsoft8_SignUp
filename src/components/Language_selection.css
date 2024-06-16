@@ -85,8 +85,8 @@ input[type="submit"] {
     }
 
     .chooseFiles {
-        left: 35%;
-        top: 590px;
+        left: 33%;
+        top: 640px;
     }
 
     #txtArea {
@@ -94,8 +94,9 @@ input[type="submit"] {
         font-size: 25px;
     }
     input[type="submit"] {
-        
-        top: 610px;
+        z-index: 3;
+        top: 750px;
+        left: 40%;
     }
 }
 
@@ -116,5 +117,12 @@ input[type="submit"] {
     .chooseFiles {
         top: 700px;
         left: 44.5%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .chooseFiles {
+        top: 720px;
+        left: 43%;
     }
 }
