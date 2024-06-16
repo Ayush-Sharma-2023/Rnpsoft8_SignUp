@@ -71,13 +71,24 @@
     }
 }
 
+@media screen and (max-width:420px)
+{
+    .all_lang{
+        left: -8%;
+    }
+}
+
 @media screen and (min-width:320px) and (max-width:375px) {
     .heading{
-        font-size: 35px;
+        font-size: 30px;
     }
     .all_lang_containers{
         margin-left: 40px;
         gap: 10px;
+    }
+    .all_lang{
+        font-size: 17px;
+        left: -3%;
     }
 }
 
