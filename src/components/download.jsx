@@ -1,7 +1,7 @@
-// import style from "./download.module.css";
-// import kalingaVideo from "../images/kalinga_ai.mp4";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import style from "./download.module.css";
+import kalingaVideo from "../images/kalinga_ai.mp4";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 
 function download() {
