@@ -53,10 +53,12 @@ textarea{
     font-family: Georama;
     border-radius: 10px;
     font-size: 20px;
+    z-index: 10;
 }
 
 input[type="file"] {
     display: none;
+    z-index: 10;
 }
 
 
